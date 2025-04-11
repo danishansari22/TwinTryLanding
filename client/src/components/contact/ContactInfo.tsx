@@ -1,6 +1,5 @@
 import { 
   MapPin, 
-  Building, 
   Mail, 
   Phone,
   Linkedin,
@@ -15,11 +14,6 @@ export default function ContactInfo() {
       icon: <MapPin className="text-primary" />,
       title: "Office Address",
       content: "IIT Bhubaneswar, Bhubaneswar, Odisha, 751013"
-    },
-    {
-      icon: <Building className="text-primary" />,
-      title: "Registered Address",
-      content: "Radhamohan Nagar, Near Siba Padma Complex, Khodasingi, Berhampur, Ganjam, Odisha, India, 760010"
     },
     {
       icon: <Mail className="text-primary" />,

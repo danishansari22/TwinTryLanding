@@ -3,6 +3,7 @@ import TwinMockSection from '../components/home/TwinMockSection';
 import TestimonialsSection from '../components/home/TestimonialsSection';
 import IntegrationSection from '../components/home/IntegrationSection';
 import DemoRequestSection from '../components/home/DemoRequestSection';
+import Navbar from '../components/layout/Navbar'; // Import the Navbar component
 
 export default function TwinMock() {
   return (
@@ -14,6 +15,8 @@ export default function TwinMock() {
           content="Create lifelike product images with TwinMock™, an AI-powered platform that transforms apparel designs into photorealistic images on diverse models." 
         />
       </Helmet>
+      
+      <Navbar /> {/* Add the Navbar component */}
       
       <main className="pt-16">
         <TwinMockSection />

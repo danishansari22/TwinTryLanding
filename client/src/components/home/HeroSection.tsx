@@ -9,22 +9,20 @@ export default function HeroSection() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="max-w-xl">
             <div className="flex flex-wrap gap-3 mb-6">
-              <div className="inline-flex items-center gap-2 px-3 py-1 bg-[#eeff15] text-[#2c2747] rounded-full text-sm font-semibold">
+              <div className="inline-flex items-center gap-2 px-3 py-1 bg-[#4a90e2] text-white rounded-full text-sm font-semibold">
+                <span>Backed By</span>
                 <SiNvidia className="h-4 w-4" />
-                <span>NVIDIA INCEPTION</span>
+              
+                <span> NVIDIA INCEPTION</span>
               </div>
-              <div className="inline-flex items-center gap-2 px-3 py-1 bg-[#eeff15] text-[#2c2747] rounded-full text-sm font-semibold">
-                <SiAmazon className="h-4 w-4" />
-                <span>AWS STARTUP</span>
-              </div>
+              
             </div>
             <h1 className="font-display text-4xl md:text-5xl font-bold leading-tight mb-6">
               <span className="block mb-2">TwinTry™</span>
-              <span className="text-[#eeff15]">Revolutionizing Fashion with AI</span>
+              <span className="text-[#eeff15]">Revolutionizing Fashion Reatil with <br/> AI</span>
             </h1>
             <p className="text-[#bcbcbc] text-lg mb-8">
-              India's first AI-powered 2D virtual try-on technology that transforms online and in-store fashion retail. Experience photorealistic try-ons that enhance confidence and drive conversion.
-            </p>
+            Transform your fashion retail with photorealistic, AI-powered virtual try-on technology. Deepen engagement, boost customer confidence, and drive conversions like never before.            </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Button size="lg" asChild className="flex items-center gap-2 bg-[#eeff15] text-[#2c2747] hover:bg-[#d9ea00]">
                 <a href="#demo">
@@ -32,12 +30,7 @@ export default function HeroSection() {
                   Try TwinTry Now
                 </a>
               </Button>
-              <Button size="lg" variant="outline" asChild className="flex items-center gap-2 text-white border-white hover:bg-white/10">
-                <a href="#demo">
-                  <CalendarIcon className="h-5 w-5" />
-                  Schedule a Demo
-                </a>
-              </Button>
+            
             </div>
           </div>
           

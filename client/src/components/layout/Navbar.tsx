@@ -23,13 +23,11 @@ export default function Navbar() {
         <div className="flex justify-between items-center py-4">
           {/* Logo */}
           <Link href="/" className="flex items-center space-x-2">
-            <div className="w-10 h-10 rounded-full bg-gradient-to-r from-primary to-violet-500 flex items-center justify-center">
-              <span className="text-white font-bold">T</span>
-            </div>
-            <div>
-              <span className="font-display font-bold text-lg text-dark">Twinverse</span>
-              <span className="block text-xs text-gray-500">Build Beyond Reality</span>
-            </div>
+          <img
+              src="/weblogo2.png" // Replace with the actual path to your PNG file
+              alt="Twinverse Logo"
+              className="w-22 h-5"
+            />
           </Link>
 
           {/* Desktop Navigation */}
@@ -82,7 +80,7 @@ export default function Navbar() {
 
           {/* CTA Button */}
           <div className="hidden md:block">
-            <Button asChild className="bg-emerald-500 hover:bg-emerald-600">
+            <Button asChild className="bg-violet-500 hover:bg-violet-600 transition-colors">
               <a href="/#demo">
                 Schedule a Demo
               </a>
