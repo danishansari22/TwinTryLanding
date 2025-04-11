@@ -4,7 +4,7 @@ import { SiNvidia, SiAmazon } from "react-icons/si";
 
 export default function HeroSection() {
   return (
-    <section id="hero" className="pt-28 pb-16 md:pt-36 md:pb-24 overflow-hidden bg-gradient-to-br from-[#2c2747] via-[#332e56] to-[#1f1a35] text-white">
+    <section id="hero" className="pt-28 pb-16 md:pt-36 md:pb-24 overflow-hidden bg-gradient-to-br from-[#3c3758] via-[#554f7a] to-[#2c2747] text-white">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="max-w-xl">
