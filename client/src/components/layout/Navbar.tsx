@@ -9,10 +9,11 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   const navLinks = [
+    { text: "TwinTry™", href: "/#how-it-works" },
+    { text: "TwinMock™", href: "/#twinmock" },
     { text: "Features", href: "/#features" },
     { text: "Benefits", href: "/#benefits" },
     { text: "Integration", href: "/#integration" },
-    { text: "Testimonials", href: "/#testimonials" },
     { text: "Contact", href: "/contact" }
   ];
 

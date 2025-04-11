@@ -1,8 +1,11 @@
 import { useEffect } from "react";
 import Navbar from "@/components/layout/Navbar";
 import HeroSection from "@/components/home/HeroSection";
+import HowItWorksSection from "@/components/home/HowItWorksSection";
 import FeaturesSection from "@/components/home/FeaturesSection";
 import BenefitsSection from "@/components/home/BenefitsSection";
+import TwinMockSection from "@/components/home/TwinMockSection";
+import BackedBySection from "@/components/home/BackedBySection";
 import IntegrationSection from "@/components/home/IntegrationSection";
 import TestimonialsSection from "@/components/home/TestimonialsSection";
 import DemoRequestSection from "@/components/home/DemoRequestSection";
@@ -23,8 +26,9 @@ export default function Home() {
           const targetElement = document.querySelector(targetId);
           
           if (targetElement) {
+            const top = targetElement.getBoundingClientRect().top + window.pageYOffset - 80;
             window.scrollTo({
-              top: targetElement.offsetTop - 80,
+              top,
               behavior: 'smooth'
             });
           }
@@ -43,8 +47,11 @@ export default function Home() {
     <div className="font-sans text-foreground bg-background">
       <Navbar />
       <HeroSection />
+      <HowItWorksSection />
       <FeaturesSection />
       <BenefitsSection />
+      <TwinMockSection />
+      <BackedBySection />
       <IntegrationSection />
       <TestimonialsSection />
       <DemoRequestSection />
