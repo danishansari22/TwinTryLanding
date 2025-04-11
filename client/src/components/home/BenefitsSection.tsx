@@ -42,10 +42,10 @@ export default function BenefitsSection() {
   ];
 
   return (
-    <section id="benefits" className="py-20 relative overflow-hidden">
+    <section id="benefits" className="py-20 relative overflow-hidden bg-gradient-to-br from-gray-100 via-white to-gray-50">
       <div className="absolute inset-0 opacity-5">
-        <div className="absolute inset-0 bg-gradient-to-br from-primary to-violet-500"></div>
-        <div className="absolute inset-0" style={{backgroundImage: `url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 20 20' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%233B82F6' fill-opacity='1' fill-rule='evenodd'%3E%3Ccircle cx='3' cy='3' r='3'/%3E%3Ccircle cx='13' cy='13' r='3'/%3E%3C/g%3E%3C/svg%3E")`}}></div>
+        <div className="absolute inset-0 bg-gradient-to-br from-[#2c2747] to-[#4a4168]"></div>
+        <div className="absolute inset-0" style={{backgroundImage: `url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 20 20' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23eeff15' fill-opacity='1' fill-rule='evenodd'%3E%3Ccircle cx='3' cy='3' r='3'/%3E%3Ccircle cx='13' cy='13' r='3'/%3E%3C/g%3E%3C/svg%3E")`}}></div>
       </div>
 
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative">

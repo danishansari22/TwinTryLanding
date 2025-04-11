@@ -70,9 +70,9 @@ export default function DemoRequestSection() {
   };
 
   return (
-    <section id="demo" className="py-20 bg-white">
+    <section id="demo" className="py-20 bg-gradient-to-b from-white to-gray-50">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="bg-gradient-to-br from-primary to-violet-500 rounded-3xl overflow-hidden shadow-xl">
+        <div className="bg-gradient-to-br from-[#2c2747] to-[#1f1a35] rounded-3xl overflow-hidden shadow-xl">
           <div className="grid grid-cols-1 lg:grid-cols-2">
             <div className="p-8 md:p-12 lg:p-16 text-white">
               <h2 className="font-display text-3xl md:text-4xl font-bold mb-6">
@@ -167,7 +167,7 @@ export default function DemoRequestSection() {
                   
                   <Button 
                     type="submit" 
-                    className="w-full bg-white text-primary hover:bg-gray-100 focus:ring-white focus:ring-offset-primary"
+                    className="w-full bg-[#eeff15] text-[#2c2747] hover:bg-[#d9ea00] focus:ring-[#eeff15] focus:ring-offset-[#2c2747]"
                     disabled={mutation.isPending}
                   >
                     {mutation.isPending ? "Submitting..." : "Book a Free Demo"}
