@@ -2,7 +2,7 @@ import { SiNvidia, SiAmazon } from "react-icons/si";
 
 export default function BackedBySection() {
   return (
-    <section id="partners" className="py-12 bg-gray-50">
+    <section id="partners" className="py-12 bg-gradient-to-br from-gray-50 via-gray-50/50 to-gray-100/30 animate-gradient-y">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col p-6 md:p-10 bg-white rounded-2xl shadow-md">
           <div className="mb-8 text-center">

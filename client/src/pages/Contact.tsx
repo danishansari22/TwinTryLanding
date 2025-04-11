@@ -8,7 +8,7 @@ export default function Contact() {
     <div className="font-sans text-foreground bg-background">
       <Navbar />
       
-      <main className="pt-28 pb-16 bg-gray-50">
+      <main className="pt-28 pb-16 bg-gradient-to-br from-gray-50 via-white to-gray-50/70 animate-gradient-y">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl mx-auto mb-10">
             <h1 className="font-display text-3xl md:text-4xl font-bold text-center text-dark mb-4">
