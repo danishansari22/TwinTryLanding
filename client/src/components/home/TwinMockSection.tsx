@@ -41,7 +41,7 @@ export default function TwinMockSection() {
   ];
 
   return (
-    <section id="twinmock" className="py-20 bg-gradient-to-br from-emerald-50/50 via-white to-emerald-50/70">
+    <section id="twinmock" className="py-20 bg-gradient-to-br from-emerald-50/50 via-white to-emerald-50/70 animate-gradient-x">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <span className="inline-block px-3 py-1 bg-emerald-100 text-emerald-800 rounded-full text-sm font-medium mb-4">
