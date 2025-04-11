@@ -10,7 +10,7 @@ export default function Navbar() {
 
   const navLinks = [
     { text: "TwinTry™", href: "/#how-it-works" },
-    { text: "TwinMock™", href: "/#twinmock" },
+    { text: "TwinMock™", href: "/twinmock" },
     { text: "Features", href: "/#features" },
     { text: "Benefits", href: "/#benefits" },
     { text: "Integration", href: "/#integration" },
